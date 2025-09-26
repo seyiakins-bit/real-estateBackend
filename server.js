@@ -32,6 +32,7 @@ app.use(
     origin: ["http://localhost:5173", "https://real-estate-alpha-gules.vercel.app"], // allow both Vite & CRA
     credentials: true,
     methods: ["GET", "POST", "PUT", "DELETE", "OPTIONS"],
+    
   })
 );
 
